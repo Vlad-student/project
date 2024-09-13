@@ -1,5 +1,9 @@
+import cowsay from 'cowsay';
 import Article from "./Article.mjs";
 import { mult } from "./math.mjs";
+
+console.log(cowsay.say({text:'qwerrty'}));
+
 
 console.log('hi form node');
 
